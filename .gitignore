@@ -1,3 +1,16 @@
+# Ignore environment config
 .env
+
+# Ignore Laravel cache and logs
+/storage/logs/
+/bootstrap/cache/
+
+# Ignore vendor folder (Laravel)
+/vendor/
+
+# Node modules
 node_modules/
+
+# System files
 .DS_Store
+Thumbs.db
